@@ -18,13 +18,13 @@
             "cargo": {
                 "args": [
                     "build",
-                    "--bin=bevy_game",
-                    "--package=bevy_game",
+                    "--bin=scary_hotel",
+                    "--package=scary_hotel",
                     "--features",
                     "dev"
                 ],
                 "filter": {
-                    "name": "bevy_game",
+                    "name": "scary_hotel",
                     "kind": "bin"
                 },
             },
@@ -49,13 +49,13 @@
                 "args": [
                     "test",
                     "--no-run",
-                    "--bin=bevy_game",
-                    "--package=bevy_game",
+                    "--bin=scary_hotel",
+                    "--package=scary_hotel",
                     "--features",
                     "dev"
                 ],
                 "filter": {
-                    "name": "bevy_game",
+                    "name": "scary_hotel",
                     "kind": "bin"
                 }
             },
